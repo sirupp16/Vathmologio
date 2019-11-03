@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Καθηγητές</title>
+</head>
+<style type ="text/css">
+
+ body{
+    background-image:url(gra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .content{
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    }
+    p{
+    font-size: 25px;
+    }
+    </style>
+<body>
+
+		
+		<form action="ProfessorServlet">
+    <button type="submit" name="button1" value="button1">Προβολή λίστας βαθμολογίας ανά μάθημα</button>
+    <button type="submit" name="button1" value="button3">Logout</button>
+      <table>
+				<tr>
+				   <td>Μάθημα </td>
+				   <td><input type="text" name="Mat"/></td>
+				</tr>
+				<tr>
+				   <td>Τμήμα</td>
+				   <td><input type="text" name="tm"/></td>
+				</tr>
+				<tr>
+				   <td>Α.Μ.</td>
+				   <td><input type="text" name="id"/></td>
+				</tr>
+				<tr>
+				   <td>Eξάμηνο μαθήματος</td>
+				   <td><input type="text" name="se"/></td>
+				</tr>
+				<tr>
+				   <td>Βαθμός</td>
+				   <td><input type="text" name="gr"/></td>
+				</tr>
+				
+				
+				<tr>
+				   	 <button type="submit" name="button1" value="button2">Καταχώρηση βαθμολογίας ανά μάθημα</button>			
+				</tr>
+			
+		</table>
+    
+     
+</form>
+		
+</body>
+</html>

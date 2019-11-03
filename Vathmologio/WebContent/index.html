@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login page</title>
+</head>
+<style type ="text/css">
+
+ body{
+    background-image:url(u.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .content{
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    }
+    p{
+    font-size: 25px;
+    }
+    .login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left:50%
+    transform: translate(-50%,-50%);
+    }
+    </style>
+    <body>
+    <h3> </h3>
+    <center>
+    <image src = "upi.png">
+    </center>
+	<div align="center">
+	
+		
+		<h3> </h3>
+		
+	
+		<form action="LoginServlet">
+				<table>
+				<tr>
+				   <td> Username </td>
+				   <td><input type="text" name="uname"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="login"></td>
+				</tr>
+			
+		</table>
+		</form>
+		
+	</div>
+</body>
+</html>
